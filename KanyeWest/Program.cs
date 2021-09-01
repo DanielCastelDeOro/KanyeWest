@@ -1,12 +1,18 @@
 ﻿using System;
-
+using Newtonsoft.Json.Linq;
+using System.Net.Http;
 namespace KanyeWest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("h");
+
+            QuoteGenerator.RonQuote();
+            QuoteGenerator.KanyeQuote();
+            QuoteGenerator.ChuckQuote();
+
         }
+
     }
 }
